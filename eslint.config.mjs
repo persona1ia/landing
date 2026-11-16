@@ -88,8 +88,8 @@ export default defineConfig(
     extends: [reactRefresh.configs.vite, reactHooks.configs.flat.recommended],
   },
   {
-    files: ['*.{js,mjs,ts}'],
     languageOptions: { globals: globals.node },
+    files: ['*.{js,mjs,ts}', 'scripts/**/*.mjs'],
   },
   prettierConfig,
   { rules: { curly: 'error' } },

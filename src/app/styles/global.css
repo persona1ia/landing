@@ -1,8 +1,8 @@
 :root {
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
-  color: #202124;
-  background: #ffffff;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  color: #253d35;
+  background: #f7f8f4;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -14,4 +14,32 @@
 body {
   min-width: 320px;
   margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid #997a37;
+  outline-offset: 5px;
+}
+
+::selection {
+  color: #19382a;
+  background: #d9e6cb;
 }
